@@ -39,3 +39,10 @@ if st.button("Presiona el botón"):
   st.write("Gracias por presionar")
 else:
   st.write("Presione el botón o este perro no recibirá cuido")
+
+with st.sidebar:
+  st.subheader("Configura la contextura del perro")
+  mod_radio = st.radio(
+    "Escoge la modalidad a usar",
+    ("Flaco", "Rellenito", "Obeso")
+  )
