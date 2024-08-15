@@ -30,3 +30,6 @@ if modo == "Lechuga":
 
 if modo == "Tomate":
   st.write("Si también viene con una hamburguesa")
+
+if modo == "Carne":
+  st.write("Correcto, los pugs, al igual que cualquier otro perro, son animales carnívoros")
