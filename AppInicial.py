@@ -19,3 +19,14 @@ with col1:
   resp = st.checkbox("Estoy de acuerdo")
   if resp:
     st.write("Correcto")
+
+
+with col2:
+  st.subheader("Esta es la segunda columna")
+  modo = st.radio("Qué es la comida favorita de un pug", ("Lechuga", "Tomate", "Carne"))
+
+if modo == "Lechuga":
+  st.write("Solo si tiene salsa BBQ")
+
+if modo == "Tomate":
+  st.write("Si también viene con una hamburguesa")
