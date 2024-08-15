@@ -19,7 +19,7 @@ with col1:
   resp = st.checkbox("Estoy de acuerdo")
   if resp:
     st.write("Correcto")
-
+    
 
 with col2:
   st.subheader("Esta es la segunda columna")
