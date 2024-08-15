@@ -33,3 +33,7 @@ if modo == "Tomate":
 
 if modo == "Carne":
   st.write("Correcto, los pugs, al igual que cualquier otro perro, son animales carnívoros")
+
+st.subheader("Uso de botones")
+if st.button("Presiona el botón"):
+  st.write("Gracias por presionar")
